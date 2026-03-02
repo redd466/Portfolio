@@ -6,8 +6,8 @@ import AiAssistant from "../components/AiAssistant";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "Dev Portfolio | Minimal & Modern",
-  description: "A premium modern developer portfolio",
+  title: "[Your Name] | Machine Learning Engineer",
+  description: "Portfolio of a Computer Science Engineering undergraduate specializing in AI, Python, and Data Analytics.",
 };
 
 export default function RootLayout({
