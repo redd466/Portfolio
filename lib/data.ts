@@ -1,42 +1,53 @@
 export const projects = [
   {
-    slug: "intelligent-registration-system",
-    title: "Intelligent Registration System",
-    shortDescription: "Web-based registration flow with automation testing.",
-    fullDescription: "Architected a comprehensive web-based registration system featuring robust frontend validation and end-to-end automation testing to ensure a seamless and secure user onboarding experience.",
-    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Automation Testing"],
+    title: "Smart ML Workflow Automation",
+    slug: "smart-ml-workflow",
     year: "2026",
-    link: "#",
+    shortDescription: "An end-to-end intelligent architecture designed to automate complex machine learning pipelines and deployment processes.",
+    tech: ["Python", "Deep Learning", "AWS", "Next.js"],
   },
   {
-    slug: "ai-spam-classifier",
+    title: "Intelligent Registration System",
+    slug: "intelligent-registration",
+    year: "2026",
+    shortDescription: "A highly robust web-based onboarding system featuring advanced frontend validation and end-to-end automation testing.",
+    tech: ["Next.js", "TypeScript", "Automation Testing", "Tailwind CSS"],
+  },
+  {
     title: "NLP Spam Classifier",
-    shortDescription: "Machine learning model for threat detection.",
-    fullDescription: "Developed a custom spam classification engine utilizing deep learning and natural language processing techniques to filter and identify malicious text patterns accurately.",
-    tech: ["Python", "Deep Learning", "NLP"],
+    slug: "nlp-spam-classifier",
     year: "2025",
-    link: "#",
+    shortDescription: "A natural language processing model trained to detect and filter malicious or unsolicited messages with high accuracy.",
+    tech: ["Python", "NLP", "Machine Learning", "Scikit-Learn"],
   },
   {
-    slug: "personal-finance-manager",
     title: "Personal Finance Manager",
-    shortDescription: "Automated tracking and analytics for personal capital.",
-    fullDescription: "A financial tracking application designed to categorize expenses, manage budgets, and provide analytical insights into personal spending habits and capital.",
-    tech: ["Python", "SQL", "Data Analytics"],
+    slug: "personal-finance-manager",
     year: "2025",
-    link: "#",
-  },
+    shortDescription: "A data-driven analytics application for tracking expenses, analyzing spending habits, and forecasting financial trends.",
+    tech: ["Python", "SQL", "Data Analytics", "Pandas"],
+  }
 ];
 
 export const skills = [
-  "Python", "SQL", "Deep Learning", "Natural Language Processing (NLP)", 
-  "TypeScript", "Next.js", "Tailwind CSS", "AWS Cloud", "Git"
+  "Python", "JavaScript", "TypeScript", "SQL", "Machine Learning", 
+  "Deep Learning", "NLP", "AWS", "Next.js", "Tailwind CSS"
 ];
 
 export const certifications = [
   {
-    title: "AWS Certification (In Progress)",
+    title: "AWS Certified Solutions Architect",
     issuer: "Amazon Web Services",
-    date: "Expected 2026",
+    date: "2026",
+  },
+  {
+    title: "Deep Learning Specialization",
+    issuer: "Coursera",
+    date: "2025",
+  },
+  {
+    title: "Data Science Professional Certificate",
+    issuer: "IBM",
+    date: "2025",
   }
 ];
